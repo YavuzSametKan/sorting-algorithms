@@ -14,8 +14,21 @@ class Program{
         Console.WriteLine("Insertion Sort:");
         ArrayUtils.PrintArr(arr);
     }
+    
+    public static void MergeSortDemo(){
+        // Generate array for insertion sort
+        var arr = ArrayUtils.GenerateArr(arrSize: 8, low: 0, high: 100);
+        
+        // Sorting
+        MergeSort.Sort(arr);
+
+        // Printing to console
+        Console.WriteLine("Merge Sort:");
+        ArrayUtils.PrintArr(arr);
+    }
 
     public static void Main(string[] args){
         InsertionSortDemo();
+        MergeSortDemo();
     }
 }

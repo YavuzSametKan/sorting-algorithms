@@ -4,6 +4,7 @@ This repository contains implementations of popular sorting algorithms in C# as 
 
 ## Algorithms Implemented
 - **Insertion Sort**
+- **Merge Sort**
 
 ## Algorithm Analysis
 Each algorithm is implemented with explanations of the approach and its time and space complexity. The purpose of this repository is to study:
