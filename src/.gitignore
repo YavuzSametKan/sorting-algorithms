@@ -1,0 +1,9 @@
+# Ignore Visual Studio solution files
+*.sln
+
+# Ignore .DS_Store (macOS-specific)
+.DS_Store
+
+# Ignore build and bin/obj directories
+/bin/
+/obj/
