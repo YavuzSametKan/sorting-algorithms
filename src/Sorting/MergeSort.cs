@@ -26,7 +26,7 @@ public class MergeSort
         Merge(arr, leftHalf, rightHalf);
     }
 
-    public static void Merge(int[] arr, int[] leftHalf, int[] rightHalf)
+    private static void Merge(int[] arr, int[] leftHalf, int[] rightHalf)
     {
         int leftLen = leftHalf.Length,
             rightLen = rightHalf.Length;
